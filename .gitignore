@@ -1,0 +1,45 @@
+#Pliki systemowe
+.DS_Store
+Thumbs.db
+
+#Pliki pierdolonego visual studio
+.vs/
+
+#Pliki kompilacji
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.ilk
+*.idb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.metaproj
+
+#Pliki tymczasowe
+*.vs/
+.vscode/
+*.tmp
+*.log
+
+#Pliki zależności NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+#Konfiguracja użytkownika
+*.user
+*.rsuser
+*.suo
+*.csproj.user
+*.vcxproj.user
+
+#Pliki generowane automatycznie przez Visual Studio
+Generated_Code/
